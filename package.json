@@ -74,7 +74,8 @@
     "should": "~3.3.1"
   },
   "engines": {
-    "node": "4.1.2"
+    "node": "4.2.6",
+    "npm" : "3.6.0"
   },
   "scripts": {
     "start": "node server/app.js",
