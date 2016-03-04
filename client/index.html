@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- build:css(client) app/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
@@ -46,7 +47,7 @@
         <div class="modal-body">
             <p class="welcome">Welcome, Please Register</p>
             <div class="social-login-btn">
-                <button class="btn btn-primary" type="button" ng-click="ok()">Continue with Facebook</button>
+                <button class="btn btn-primary" type="button" sp-social-login="facebook" sp-client-id="570158406481119" sp-scope="public_profile,email"><i class="fa fa-facebook-official"></i> Continue with Facebook</button>
             </div>
             <p class="or">OR</p>
             <div sp-registration-form></div>

@@ -40,6 +40,13 @@ app.use(ExpressStormpath.init(app,{
   website: true,
   web: {
     spaRoot: app.get('appPath')
+  },
+  enableFacebook: true,
+  social: {
+      facebook: {
+          appId: '570158406481119',
+          appSecret: '02c19c70a7128b9694726f3e0f04d3df',
+      }
   }
 }));
 
