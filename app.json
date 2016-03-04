@@ -1,0 +1,16 @@
+{
+    "name": "bneuserregistration",
+    "description": "BNE user registration app integrated with stormpath using angular js",
+    "website": "https://bneuserregistration.herokuapp.com/",
+    "repository": "https://github.com/jane/example",
+    "keywords": [
+        "social network",
+        "nodejs",
+        "angularjs",
+        "stormpath"
+    ],
+    "addons": [
+        "stormpath"
+    ],
+    "generator": "https://www.expeditedssl.com/heroku-button-maker"
+}
